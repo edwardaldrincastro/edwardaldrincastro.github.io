@@ -1,0 +1,22 @@
+button:hover{ 
+  background-color: #E95153;
+  border: 2px solid #E95153;
+}
+
+nav a.nav-item:hover {
+  color: #E3032A;
+}
+svg path.bg-color:hover{ 
+  fill: #E95153;
+}
+
+a:hover {
+  color: #E3032A;
+}
+
+button, nav a.nav-item, svg#back-to-top, svg path.bg-color, a {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}

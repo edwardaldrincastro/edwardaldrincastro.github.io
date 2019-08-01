@@ -1,0 +1,220 @@
+body, html{
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  /* position: absolute; */
+  /* z-index: 0; */
+  /* top: 0; */
+  /* left: 0; */
+  /* width: 100%; */
+  /* height: 90%; */
+  /* background: black url("../assets/images/mobile5.png"); */
+
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+}
+header div.header-wrapper {
+  display: flex;
+  flex: 1;
+  background-color: white;
+  padding: 80px 100px 0px 100px;
+}
+header div div.overview{
+display: flex;
+flex-direction: column;
+flex: 1;
+/* justify-content: center; */
+/* align-items: center; */
+padding: 50px;
+}
+header div div div.profile-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+header div div.about-wrapper {
+display: flex;
+flex-direction: column;
+flex: 2;
+/* justify-content: center;
+align-items: center; */
+padding: 50px;
+}
+header div div p.title{
+font-size: 1.5em;
+text-align: center;
+}
+header div div p.about{
+  font-size: 1.2em;
+  color: #4D5766;
+  line-height: 1.6em;
+}
+a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+nav {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  background-color: rgba(255,255,255,1);
+  height: 80px;
+  z-index: 999;
+  position: fixed;
+  border-bottom: thin solid #DCDCDC;
+}
+
+nav div.nav-wrapper{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+}
+nav a.brand {
+  font-size: 2.2em;
+  font-weight: 900;
+  color: black;
+}
+nav a.nav-item {
+  font-size: 0.8em;
+  font-weight: 700;
+  padding: 0 15px;
+  color: black;
+}
+nav div ul.links {
+  display: block;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline;
+  color: black;
+  padding: 10px 20px;
+  font-size: 0.9em;
+  cursor: pointer;
+  font-family: 'raleway', sans-serif;
+  text-transform: uppercase;
+}
+button {
+  color: white;
+  border-radius: 100px;
+  padding: 12px 30px;
+  width: 100%;
+  max-width: 300px;
+  /* font-weight: 600; */
+  /* background-color: rgba(38, 200, 190, 1);   */
+  background-color: #FE6868;
+  border: 2px solid #FE6868;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+img.profile {
+  display: block;
+	margin: 3em auto;
+  border-radius: 100%;
+  border: thin solid #DEDEDE;
+	width: 11em;
+}
+h1.title {
+  font-size: 44px;
+  font-weight: 900;
+}
+section{
+  padding: 0px 150px;
+}
+section#projects{
+  background-color: #ffffff;
+  height: 90%;
+}
+section div.project-wrapper{
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+section#contact{
+  /* background-color: #E79595; */
+  height: 90%;
+}
+section div.contact-wrapper{
+  display: flex;
+  flex:1;
+  margin-bottom: 60px;
+}
+section div div.contacts{
+  display: flex;
+  /* flex:1; */
+  flex-direction: column;
+}
+section div div.connect{
+  display: flex; 
+  flex:1;
+  flex-direction: column; 
+  align-items: center;
+}
+section div div ul{
+  display: flex; 
+  flex-direction: column; 
+}
+section div div ul a{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+section div div ul a i{
+  vertical-align: middle;
+  width: 40px; 
+}
+section div div ul a span{
+  vertical-align: middle;
+}
+
+section.inverted{
+  background-color: #F9F9F9;
+  /* height: 100%; */
+}
+div.content{
+  display: flex;
+  /* flex: 1; */
+  flex-direction: column;
+  padding: 0px 0px;
+}
+svg.back-to-top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 50;
+  right: -100;
+  cursor: pointer;
+}
+
+svg path.bg-color{ 
+  fill:#FD6867;
+}
+.maintenance {
+  font-size: 1em;
+  color: #4D5766;
+  line-height: 1em;
+  padding: 0;
+  margin: 0.5em;
+  text-align: center;
+}
+section#projects .wrapper .featured-image {
+  display: block;
+  width: 18em;
+  margin-right: 3em;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 2em 0;
+}
+.content-wrapper {
+  text-align: left;
+}
